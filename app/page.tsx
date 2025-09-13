@@ -1,8 +1,13 @@
+import HeroSplitRTL from "@/components/HeroSplitRTL";
+import TestimonialsStatic from "@/components/TestimonialsStatic";
+import WhyUsSection from "@/components/WhyUsSection";
 
 export default function Home() {
   return (
     <main>
-      home
+      <WhyUsSection />
+      <TestimonialsStatic />
+      <HeroSplitRTL />
     </main>
   );
 }
